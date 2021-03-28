@@ -93,6 +93,5 @@ server.post("/savepoint", (req, res) => {
         return res.render("search.html", { places: rows, total: total})
       })
 })
-
 //ligar o servidor 
 server.listen(3005)
